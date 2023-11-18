@@ -1,10 +1,13 @@
 "use strig"
 
+    
+function pregunta(nombre) = {
     const nombre = prompt ("cual es tu nombre")
-if (nombre=Number && nombre=null) {
-    alert(no es tu nombre)
-} else {
-    alert("tu nombre es "nombre)
+
 }
+
+    document.write(pregunta())
+  
+
 
 //saludar y preguntar el nombre si no responde poner hola desconocido 
